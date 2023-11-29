@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "hasanalioz\\Core\\": "src/core/"
+            "hasanalioz": "src/"
         }
     }
 }
