@@ -1,6 +1,6 @@
 <?php
 
-namespace hasanalioz\Core\Telegram;
+namespace Core\Telegram;
 
 class TelegramClient
 {
