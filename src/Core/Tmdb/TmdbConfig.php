@@ -1,6 +1,6 @@
 <?php
 
-namespace hasanalioz\Core\Tmdb;
+namespace Core\Tmdb;
 
 class TmdbConfig
 {
