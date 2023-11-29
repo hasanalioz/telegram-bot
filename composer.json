@@ -1,8 +1,14 @@
 {
   "name": "hasanalioz/telegram-bot",
-  "description": "Telegram aracılığı ile film sorgulayabilirsiniz.",
+  "description": "Telegram aracılığı ile film sorgulayabilirsiniz",
   "type": "project",
   "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "hasanalioz\\core\\": "src/core/",
+      "hasanalioz\\api\\": "src/api/"
+    }
+  },
   "authors": [
     {
       "name": "Hasan Ali Öztürk",
@@ -12,10 +18,6 @@
   "require": {
     "php": ">=8.0"
   },
-  "autoload": {
-    "psr-4": {
-      "hasanalioz\\core\\": "src/core/",
-      "hasanalioz\\api\\": "src/api/"
-    }
-  }
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
